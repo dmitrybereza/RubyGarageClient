@@ -1,0 +1,51 @@
+.TaskHr{
+    margin: 0;
+}
+
+.doneStatus{
+    font-weight: 700;
+}
+
+.Task{
+    margin: 0;
+}
+
+.TaskButtons{
+    opacity: 0;
+    transition: .3s;
+    margin-left: auto;
+}
+
+.TaskButtons i{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.Task:hover .TaskButtons{
+    opacity: 1;
+}
+
+
+.TaskWrap{
+    display: flex;
+}
+
+.TaskText p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.TaskText{
+    display: flex;
+    line-height: 100%;
+    margin: 5px;
+}
+
+.TaskText input{
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.doneStatus{
+    margin-right: 5px;
+}

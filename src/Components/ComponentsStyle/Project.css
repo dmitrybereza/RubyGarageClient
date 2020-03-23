@@ -1,0 +1,73 @@
+.Project{
+    width: 40%;
+    background: white;
+    margin: 30px auto;  
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+}
+
+#swalInput{
+    width: 90%;
+}
+
+.swal p{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.TitleButtons i{
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.AddNewTask{
+    padding: 5px;
+}
+
+.AddNewTask input{
+    margin-right: 10px;
+    padding: 0 5px;
+    width: calc(75% - 20px);
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #343a40;
+}
+.AdditionalProps{
+    margin-left: 1%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.AdditionalProps:hover{
+    transform: scale(1.1);
+}
+.AddNewTask button{
+    width: 20%;
+    background: none;
+    border: 2px solid #343a40;
+    border-radius: 10px;
+    outline: none !important;
+    transition: .5s;
+}
+
+.AddNewTask button:hover{
+    color: white;
+    background: #343a40;
+}
+
+.ProjectTitle{
+    background: #343a40;
+    color: white;
+    padding: 10px;
+    display: flex;
+    font-size: large;
+}
+
+.TitleButtons{
+    margin-left: auto;
+}
+
+.ProjectTasks{
+    padding: 0 10px;
+}

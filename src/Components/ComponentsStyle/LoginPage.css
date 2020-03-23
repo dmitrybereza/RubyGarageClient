@@ -1,0 +1,108 @@
+body{
+    background: #dcd6f7;
+}
+
+.LoginForm,
+.RegistrationForm{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 40%;
+    height: 300px;
+    max-width: 550px;
+    background: white;
+    box-shadow: 2px 7px 3px gray;
+}
+
+.LoginFormName,
+.RegistrationFormName{
+    background: #343a40;
+    padding: 1%;
+    color: white;
+}
+
+.LoginForm input{
+    width: 100%;
+    margin-bottom: 1vh;
+}
+
+.RegistrationForm input{
+    width: 100%;
+    margin-bottom: 1vh;
+}
+
+.LoginForm button{
+    width: 50%;
+    background: none;
+    border: 2px solid #343a40;
+    border-radius: 10px;
+    outline: none !important;
+    transition: .5s;
+}
+
+.RegistrationForm button{
+    width: 50%;
+    background: none;
+    border: 2px solid #343a40;
+    border-radius: 10px;
+    outline: none !important;
+    transition: .5s;
+}
+
+.RegistrationForm input,
+.LoginForm input{
+    border: none;
+    padding: 0 5px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.LoginForm button:hover{
+    background: #343a40;
+    color: white;
+}
+
+.RegistrationForm button:hover{
+    background: #343a40;
+    color: white;
+}
+
+.LoginFormForm{
+    margin-top: 45px;
+    padding: 1% 2%;
+}
+
+.RegistrationFormForm{
+    margin-top: 20px;
+    padding: 1% 2%;
+}
+
+.changeForm{
+    position: absolute;
+    top: calc(25% + 270px);
+    width: 40%;
+    left: 50%;
+    border: none;
+    font-size: 1.1vw;
+    background: none;
+    outline: none !important;
+    transform: translateX(-50%);
+    max-width: 550px;
+}
+
+@media screen and (max-width:800px){
+
+    .RegistrationForm button{
+        width: 90%;
+    }
+
+    .LoginForm button{
+        width: 90%;
+    }
+
+    .changeForm{
+        font-size: 2.5vw;
+    }
+}
